@@ -23,7 +23,7 @@ def y2indicator(Y):
 
 
 # Get the data
-data = pd.read_csv('fashion-mnist_train.csv')
+data = pd.read_csv('data/fashion-mnist_train.csv')
 data = data.as_matrix()
     
 
